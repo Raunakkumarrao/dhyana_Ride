@@ -1,0 +1,79 @@
+
+> figma-make-app@1.0.0 dev
+> vite --host 0.0.0.0
+
+
+  [32m[1mVITE[22m v8.1.5[39m  [2mready in [0m[1m1180[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8443[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://192.168.1.100:[1m8443[22m/[39m
+  [32mΓ₧£[39m  [1mNetwork[22m: [36mhttp://172.22.32.1:[1m8443[22m/[39m
+[2m[32m  Γ₧£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m1:37:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m1:37:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependency optimized: [33mreact-dom/client[32m[39m
+[2m1:38:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m1:38:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependencies optimized: [33maxios, lucide-react[32m[39m
+[2m1:38:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32moptimized dependencies changed. reloading[39m
+1:40:18 AM [vite] Internal server error: Transform failed with 1 error:
+
+[PARSE_ERROR] Identifier `Bike` has already been declared
+    Γò¡ΓöÇ[ src/imports/DashboardPage.tsx:9:3 ]
+    Γöé
+  9 Γöé   Bike,
+    Γöé   ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé     Γò░ΓöÇΓöÇΓöÇ `Bike` has already been declared here
+    Γöé 
+ 21 Γöé import type { Bike, BookingRecord, NotificationRecord, Page, UserProfile } from '../data'
+    Γöé               ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé                 Γò░ΓöÇΓöÇΓöÇ It can not be redeclared here
+ΓöÇΓöÇΓöÇΓöÇΓò»
+
+  Plugin: vite:oxc
+  File: C:/Users/hp/Downloads/bike_rental_fixed/src/imports/DashboardPage.tsx
+      at transformWithOxc (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4033:19)
+      at TransformPluginContext.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4104:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:30201:51)
+      at async loadAndTransform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:20124:26)
+1:40:42 AM [vite] Internal server error: Transform failed with 1 error:
+
+[PARSE_ERROR] Identifier `Bike` has already been declared
+    Γò¡ΓöÇ[ src/imports/DashboardPage.tsx:9:3 ]
+    Γöé
+  9 Γöé   Bike,
+    Γöé   ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé     Γò░ΓöÇΓöÇΓöÇ `Bike` has already been declared here
+    Γöé 
+ 21 Γöé import type { Bike, BookingRecord, NotificationRecord, Page, UserProfile } from '../data'
+    Γöé               ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé                 Γò░ΓöÇΓöÇΓöÇ It can not be redeclared here
+ΓöÇΓöÇΓöÇΓöÇΓò»
+
+  Plugin: vite:oxc
+  File: C:/Users/hp/Downloads/bike_rental_fixed/src/imports/DashboardPage.tsx
+      at transformWithOxc (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4033:19)
+      at TransformPluginContext.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4104:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:30201:51)
+      at async loadAndTransform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:20124:26)
+      at async viteTransformMiddleware (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:24604:20)
+1:42:43 AM [vite] Internal server error: Transform failed with 1 error:
+
+[PARSE_ERROR] Identifier `Bike` has already been declared
+    Γò¡ΓöÇ[ src/imports/DashboardPage.tsx:9:3 ]
+    Γöé
+  9 Γöé   Bike,
+    Γöé   ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé     Γò░ΓöÇΓöÇΓöÇ `Bike` has already been declared here
+    Γöé 
+ 21 Γöé import type { Bike, BookingRecord, NotificationRecord, Page, UserProfile } from '../data'
+    Γöé               ΓöÇΓöÇΓö¼ΓöÇ  
+    Γöé                 Γò░ΓöÇΓöÇΓöÇ It can not be redeclared here
+ΓöÇΓöÇΓöÇΓöÇΓò»
+
+  Plugin: vite:oxc
+  File: C:/Users/hp/Downloads/bike_rental_fixed/src/imports/DashboardPage.tsx
+      at transformWithOxc (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4033:19)
+      at TransformPluginContext.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:4104:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:30201:51)
+      at async loadAndTransform (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:20124:26)
+      at async viteTransformMiddleware (file:///C:/Users/hp/Downloads/bike_rental_fixed/node_modules/vite/dist/node/chunks/node.js:24604:20)
+[2m1:46:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
